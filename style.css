@@ -1,0 +1,106 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 250px;
+    height: 430px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid silver;
+    background: linear-gradient(145deg, #0d78eb, #283848);
+}
+.container h2{
+    text-align: center;
+    padding-top: 10px;
+    color: lightsteelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.display{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+    padding: 10px 15px;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #2f89c5, #38a3ea);
+    font-size: 18px;
+    color: #162330;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+.key-list{
+    width: 100%;
+    padding: 40px 5px;
+    position: relative;
+}
+.key-list-left{
+    width: 70%;
+    float: left;
+}
+.list-number{
+    display: flex;
+}
+.number{
+    margin: 0 10px;
+    width: 40PX;
+    height: 40PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: lightsteelblue;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #6084a8, #2f4256);
+    box-shadow:  5px 5px 10px #162330,-5px -5px 10px #2f4255; 
+    cursor: pointer;  
+}
+.zero{
+    width: 100px;
+}
+.clearAll,.clear{
+    margin: 0 10px;
+    width: 40PX;
+    height: 40PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: lightsteeblue;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #6084a8, #2f4256);
+    box-shadow:  5px 5px 10px #162330,-5px -5px 10px #2f4255;
+    cursor: pointer;        
+}
+.key-list-right{
+    width: 10%;
+    float: right;
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+}
+.list-number-right .number{
+    background: linear-gradient(145deg, #ebc90c, #2f4256);
+    box-shadow:  5px 5px 10px #162330,-5px -5px 10px #2f4255;
+}
+.Equal{
+    margin: 0 10px;
+    width: 40PX;
+    height: 40PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: lightsteelblue;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ebc90c, #2f4256);
+    box-shadow:  5px 5px 10px #162330,-5px -5px 10px #2f4255;
+    cursor: pointer;
+}
